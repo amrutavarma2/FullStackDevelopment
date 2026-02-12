@@ -1,0 +1,86 @@
+/* Page background */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #eef2f7;
+}
+
+/* College header */
+.college-header {
+    background-color: #0b3c5d;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Card layout */
+.card {
+    background-color: white;
+    width: 400px;
+    margin: 30px auto;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+/* Title */
+#title {
+    text-align: center;
+    color: #0b3c5d;
+}
+
+/* Labels & inputs */
+label {
+    font-weight: bold;
+    margin-top: 10px;
+    display: block;
+}
+
+.field,
+input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Button */
+#submitBtn {
+    width: 100%;
+    background-color: #0b3c5d;
+    color: white;
+    padding: 10px;
+    border: none;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+#submitBtn:hover {
+    background-color: #092c45;
+}
+
+/* Message */
+#message {
+    text-align: center;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+/* Image section */
+.image-box {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.image-box img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+/* DOM buttons */
+.dom-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}

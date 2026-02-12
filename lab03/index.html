@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>College Student Registration</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- jQuery CDN -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+</head>
+
+<body>
+
+<div class="college-header">
+    <h1>Institute of Technology</h1>
+    <p>Student Registration Portal</p>
+</div>
+
+<div class="card">
+    <h2 id="title">Registration Form</h2>
+
+    <form id="regForm">
+        <label>Username</label>
+        <input type="text" id="username" class="field">
+
+        <label>Email</label>
+        <input type="text" id="email" class="field">
+
+        <label>Phone Number</label>
+        <input type="text" id="phone" class="field">
+
+        <label>Password</label>
+        <input type="password" id="password">
+
+        <label>Confirm Password</label>
+        <input type="password" id="confirm">
+
+        <button type="button" id="submitBtn">Register</button>
+    </form>
+
+    <p id="message"></p>
+
+    <div class="image-box">
+        <img id="myImage" src="images/img1.jpg" alt="Campus Image">
+        <button onclick="changeImage()">Change Campus Image</button>
+    </div>
+
+    <div class="dom-buttons">
+        <button id="addText">Add Status ✔</button>
+        <button id="deleteText">Clear Message</button>
+    </div>
+</div>
+
+<script src="js/script.js"></script>
+</body>
+</html>

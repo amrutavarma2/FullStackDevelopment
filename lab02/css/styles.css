@@ -1,0 +1,30 @@
+/* Tag selector */
+body {
+    background-color: #f4f6f9;
+}
+
+/* Class selector */
+.info {
+    font-size: 18px;
+    color: #333;
+    margin: 20px;
+}
+
+/* ID selector */
+#form {
+    background-color: #eef;
+    padding: 10px;
+}
+
+/* Border & padding */
+form {
+    border: 2px solid #333;
+    padding: 20px;
+}
+
+/* Background image */
+.container {
+    background-image: url("../images/campus.jpg");
+    background-position: center;
+    background-size: cover;
+}
